@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <!-- 移动端核心视口配置：禁止缩放、宽度等于手机屏幕 -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <title>页面嵌入</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        html, body {
+            /* 根容器占满屏幕全部高度宽度 */
+            width: 100%;
+            height: 100vh;
+            overflow: hidden;
+        }
+        iframe {
+            width: 100%;
+            height: 100%;
+            border: none; /* 去除默认边框 */
+            display: block;
+        }
+    </style>
+</head>
+<body>
+    <iframe 
+        src="https://teste2.lesimao.com/Hby_Home?appname=jue&room_id=b076f717&course_id=29245&period_id=1036079&sc=99"
+        allowfullscreen
+        scrolling="auto"
+    ></iframe>
+</body>
+</html>
